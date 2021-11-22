@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work</title>
+    <style>
+        .flex-container {
+            border: 3px solid greenyellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 100%;
+        }
+        .flex-container2 {
+            border: 3px  solid greenyellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 100%;
+        }
+        .flexbox-item {
+            border: 2px solid black;
+            width: 200px;
+            height: 100px;
+            margin: 5px;
+        }
+        .flexbox-item1 {
+            /* flex-grow: 2; */
+            flex-shrink: 1;
+            order: 2;
+        }
+        .flexbox-item2 {
+            order: 3;
+            /* flex-grow: 1; */
+            flex-shrink: 2;
+        }
+        .flexbox-item3 {
+            order: 3;
+            flex-shrink: 3;
+        }
+        .flexbox-item4 {
+            order: 4;
+            flex-shrink: 3;
+        }
+        .circle {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 1px solid grey;
+            line-height: 50px;
+            text-align: center;
+        }
+        #target {
+            width: 250px;
+            height: 250px;
+            background-color: #aaa;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+        }
+        #text {
+            width: 100%;
+            display: flex;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flexbox-item flexbox-item1"><em><strong>Welcome to Restudent</strong></em></div>
+        <div class="flexbox-item flexbox-item1"><em><strong>Home menu review contact us</strong></em></div>
+        <div class="flexbox-item flexbox-item1"><em><strong>Email:Store@gmail.com
+            <br>if you find any complain<br>
+            Contact on-94556*****</strong></em>
+        </div>
+        <div class="flexbox-item flexbox-item2" id="target" id="text"><u><em><strong>Exicting Offers<br><br>
+            **GET OUR SPECIAL THALI FOR ONLU RS-100 ONLY ON MONDAY**<br><br>
+            PLEASE RATE US OUT OF 5
+        </strong></em></u></div>
+        <div class="flexbox-item flexbox-item2">
+            <h2>Please Register Here</h2>
+            <br>
+            <label for="name">Frist Name</label>
+            <input type="test" name="Name" placeholder="Enter Frist Name" id="name"/>
+            <br>
+            <label for="name">Last Name</label>
+            <input type="test" name="Name" placeholder="Enter Last Name" id="name"/>
+            <label for="age">Your age:</label>
+            <input id="bday" type="age" name="bday">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="emailid" id="email" /> <br>
+            <label for="start">Enter the Date:</label>
+            <input type="date" name="begin"placeholder="dd/mm/yyyy" value="">
+            <label for="section"> Are you more than one person?</label><br>
+            <input type="checkbox" name="aggrebox" id="agree"/><br>
+            <label for="section">Do you have cough or cold?</label><br>
+            <input type="checkbox" name="aggrebox" id="agree"/><br>
+            <label>Click Here</label><br>
+            <input type="submit" name="Submit"><br>
+            <label>Reset</label><br>
+            <input type="reset" name="reset"><br>
+        </div>
+        <div class="flexbox-item flexbox-item3"><em><h1>Manu</h1></em></div>
+        <div class="flexbox-item flexbox-item4">
+                <tbody>
+                    <tr bgcolor="lightblue"><b>Starters</b></tr><br>
+                    <tr bgcolor="lightblue">Panir Tikka</tr><br>
+                    <tr bgcolor="lightblue">Tomato sosh</tr><br>
+                    <tr bgcolor="lightblue">Afgani Chop</tr><br>
+                    <tr bgcolor="lightblue">Tikki</tr><br>
+                </tbody>
+        </div>
+        <div class="flexbox-item flexbox-item3">
+            <tbody>
+                <tr bgcolor="lightblue"><b>South Indian</b></tr><br>
+                <tr bgcolor="lightblue">Masala Dosa</tr><br>
+                <tr bgcolor="lightblue">Idli Sambar</tr><br>
+                <tr bgcolor="lightblue">Mix veg Uttapam</tr><br>
+                <tr bgcolor="lightblue">Onion Dosa</tr><br>
+            </tbody>
+        </div>
+        <div class="flexbox-item flexbox-item3">
+            <tbody>
+                <tr bgcolor="lightblue"><b>Indian Kitchen</b></tr><br>
+                <tr bgcolor="lightblue">Sahi Paneer</tr><br>
+                <tr bgcolor="lightblue">kadhi Paneer</tr><br>
+                <tr bgcolor="lightblue">Dal makhni</tr><br>
+                <tr bgcolor="lightblue">Poori Sabji</tr><br>
+            </tbody>
+        </div>
+        
+    </div>
+</body>
+</html>
